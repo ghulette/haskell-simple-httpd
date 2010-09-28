@@ -1,0 +1,4 @@
+A very simple web server written in Haskell.
+
+build: ghc --make Httpd.hs
+run:   ./Httpd --port 8080 --root /opt/httpd 
