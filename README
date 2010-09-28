@@ -1,4 +1,4 @@
-A very simple web server written in Haskell.
+A very simple web server written in Haskell.  It works, barely :)
 
-build: ghc --make Httpd.hs
-run:   ./Httpd --port 8080 --root /opt/httpd 
+build: ghc --make Main.hs Httpd.hs -o httpd
+run:   ./httpd --port 8080 --root /opt/httpd 
